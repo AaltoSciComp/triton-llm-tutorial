@@ -1,0 +1,22 @@
+name: myenv_sess2
+channels:
+  - nvidia
+  - pytorch 
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch-cuda=11.8
+  - pytorch
+  - sentencepiece
+  - pip
+  - pip:
+    - transformers
+    - datasets
+    - python-dotenv
+    - ipykernel
+    - accelerate
+    - notebook
+    - bitsandbytes
+    - loralib
+    - git+https://github.com/huggingface/peft
+
