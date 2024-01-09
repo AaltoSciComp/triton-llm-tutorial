@@ -12,6 +12,7 @@ dependencies:
   - pip:
     - transformers
     - datasets
+    - huggingface_hub
     - python-dotenv
     - ipykernel
     - accelerate
