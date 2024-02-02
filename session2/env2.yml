@@ -19,5 +19,6 @@ dependencies:
     - notebook
     - bitsandbytes
     - loralib
+    - trl
     - git+https://github.com/huggingface/peft
 
