@@ -1,0 +1,13 @@
+sentencepiece
+transformers
+datasets
+huggingface_hub
+python-dotenv
+ipykernel
+accelerate
+notebook
+loralib
+optimum
+auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/rocm561/
+
+git+https://github.com/huggingface/peft
