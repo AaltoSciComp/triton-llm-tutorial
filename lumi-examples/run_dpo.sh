@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=dpoExample
-#SBATCH --account=project_462000365
+#SBATCH --account=project_id
 #SBATCH --time=01:00:00
 #SBATCH --exclusive
 #SBATCH --nodes=1

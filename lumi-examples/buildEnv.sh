@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=build_pytorch_env
-#SBATCH --account=project_462000365
+#SBATCH --account=project_id
 #SBATCH --time=00:30:00
 #SBATCH --cpus-per-gpu=8
 #SBATCH --gpus=1
