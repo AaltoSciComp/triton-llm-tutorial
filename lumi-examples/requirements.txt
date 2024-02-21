@@ -3,9 +3,4 @@ transformers
 datasets
 huggingface_hub
 trl
-ipykernel
 accelerate
-notebook
-loralib
-optimum
-
