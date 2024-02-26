@@ -17,4 +17,4 @@ WORKING_DIR=$(pwd)
 
 # Build a virtual environment, activate it and install all requirements.
 singularity exec -W $WORKING_DIR -B $WORKING_DIR $SING_IMAGE bash \
--c '\$WITH_CONDA; python3 -m venv --system-site-packages $PYTHON_ENV_NAME;. $PYTHON_ENV_NAME/bin/activate; pip install -r requirements.txt'
+-c 'python3 -m venv --system-site-packages $PYTHON_ENV_NAME;. $PYTHON_ENV_NAME/bin/activate; pip install -r requirements.txt'
