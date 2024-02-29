@@ -28,4 +28,4 @@ On your laptop:
 ```bash
 ssh -N -f -L 8889:nodename:8889 username@triton.aalto.fi
 ```
-Then, open your browser and go to 'localhost:8889'.
+Then, open your browser and go to 'localhost:8889', choose python3 kernel, instead of using the customized kernel.
