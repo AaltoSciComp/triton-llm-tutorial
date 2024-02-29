@@ -21,6 +21,7 @@ On triton:
 
 ```bash
 srun --pty --mem=32G --cpus-per-task=4 --gres=gpu:1 --time=02:00:00 bash
+conda activate ./myenv
 jupyter notebook --no-browser --port=8889 --ip=0.0.0.0
 ```
 On your laptop:
