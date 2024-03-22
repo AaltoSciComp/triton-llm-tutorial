@@ -8,13 +8,6 @@ On a triton terminal, run:
 mamba env create -f env2.yml -p ./myenv2
 ```
 
-### Make the environment visible inside of Jupyter
-
-```bash
-module load jupyterhub/live
-
-envkernel conda --user --name INTERNAL_NAME --display-name="My kernel" /path/to/conda_env
-```
 ### Start a jupyter server on a gpu node and run jupyter notebooks on your laptop's browser
 
 On triton:
