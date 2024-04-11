@@ -1,19 +1,8 @@
 # triton-llm-tutorial
 This is the repo for LLMs-on-triton tutorials.
 
-### Run the tutorial notebooks on triton
-After git clone this repo to a directory on triton, you will need to define some environment variables.
-Create your own `.env` file and add necessary environment variables:
-
-```bash
-#Forece transformers to use pre-downloaded models
-TRANSFORMERS_OFFLINE='1'
-HF_HOME='/scratch/shareddata/dldata/huggingface-hub-cache'
-
-#optional
-HUGGINGFACE_TOKEN=your_token
-```
-And then launch a [jupyter.triton.aalto.fi](https://jupyter.triton.aalto.fi/) server and open a notebook with the **custom kernel for this tutorial**: "LLM-tools"
+### Run the notebook on triton
+Launch a [jupyter.triton.aalto.fi](https://jupyter.triton.aalto.fi/) server and open a notebook with the **custom kernel for this tutorial**: "LLM-tools"
 
 
 
