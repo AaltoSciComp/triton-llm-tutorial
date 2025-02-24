@@ -12,11 +12,13 @@ On triton:
 
 ```bash
 srun --pty --mem=32G --cpus-per-task=4 --gres=gpu:1 --time=02:00:00 bash
-conda activate ./myenv
+source activate ./myenv
 jupyter notebook --no-browser --port=8889 --ip=0.0.0.0
 ```
+You will see the token from the output info.
+
 On your laptop:
 ```bash
 ssh -N -f -L 8889:nodename:8889 username@triton.aalto.fi
 ```
-Then, open your browser and go to 'localhost:8889', choose python3 kernel.
+Then, open your browser and go to 'localhost:8889', copy the token from the server and choose python3 kernel.
